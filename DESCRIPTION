@@ -1,0 +1,15 @@
+Package: EFRanking6
+Type: Package
+Title: Ensemble Feature Ranking (EFR) - future version
+Version: 0.1.0
+Author: Hcg Hcg <HcgMantainer@gmail.com>
+Maintainer: Hcg <HcgMantainer@gmail.com>
+Description: Feture Selection function based on EFR algorithm
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Date: 2021-1-4
+Imports: FSelector,
+         future,
+         future.apply
+RoxygenNote: 7.1.1
