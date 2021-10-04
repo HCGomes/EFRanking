@@ -2,12 +2,12 @@
 The EFRanking6 Rpackage implements EEFR Feature Selection algorithm.
 On a data mining process, EEFR can be used as feature selection pre-process, before classification.
 
-#Package installation from GitHub:
+## Package installation from GitHub:
 library("devtools")
 install_github('https://github.com/HCGomes/EFRanking.git', INSTALL_opts=c("--no-multiarch"))
 
 
-#EFRanking usage:
+## EFRanking usage:
 library(EFRanking6) 
 features <- ensemble.feature.ranking(dataset)
 dataset <- dataset[,c(features, 'class')]
